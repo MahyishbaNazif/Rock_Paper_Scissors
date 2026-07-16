@@ -109,20 +109,27 @@ Play against the computer, unlock achievements, build your winning streak, and i
 
 ### Main Menu
 
-*(Insert Screenshot Here)*
+![Main Menu] (sreenshots/main_menu.png)
 
 ### Gameplay
 
-*(Insert Screenshot Here)*
+![Gameplay] (sreenshots/gameplay.png)
 
 ### Statistics
 
-*(Insert Screenshot Here)*
+![Statistics] (sreenshots/statistics.png)
 
 ### Achievements
 
-*(Insert Screenshot Here)*
+![Achievements] (sreenshots/achievements.png)
 
+### Rules
+
+![Rules] (sreenshots/rules.png)
+
+### Exit
+
+![Exit] (sreenshots/exit.png)
 ---
 
 ## 🚀 Future Improvements
