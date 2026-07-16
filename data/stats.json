@@ -1,10 +1,10 @@
 {
     "player_name": "",
-    "games": 38,
-    "wins": 10,
-    "losses": 18,
-    "draws": 10,
-    "win_streak": 5,
-    "best_streak": 5,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "draws": 0,
+    "win_streak": 0,
+    "best_streak": 0,
     "achievments": []
 }

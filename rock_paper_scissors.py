@@ -23,12 +23,14 @@ player_name = ""
 # -----------------------------
 
 stats = {
+    "player_name": "",
     "games": 0,
     "wins": 0,
     "losses": 0,
     "draws": 0,
     "win_streak": 0,
-    "best_streak": 0
+    "best_streak": 0,
+    "achievements": []
 }
 STATS_FILE = "data/stats.json"
 
@@ -205,22 +207,29 @@ def match_summary(player_score, computer_score):
     input("\nPress ENTER to continue...")
 
 def check_achievements():
+    #rint(stats)
+    #print(type(stats))
+    #print(stats.keys())
+    #print(repr(list(stats.keys())))
+    #print("achievements" == list(stats.keys())[-1])
+    #print(repr(list(stats.keys())[-1]))
+
+    input("Press ENTER...")
 
 
-
-    if stats["wins"] >= 1 and "First Victory" not in stats["achievements"]:
-        stats["achievements"].append("First Victory")
-        save_stats
+    if stats["wins"] >= 1 and "First Victory" not in stats.get("achievements", []):
+        stats.setdefault("achievements", []).append("First Victory")
+        save_stats()
         print(Fore.GREEN + "\n🏅 Achievement Unlocked: First Victory!")
 
-    if stats["wins"] >= 10 and "Champion" not in stats["achievements"]:
-        stats["achievements"].append("Champion")
-        save_stats
+    if stats["wins"] >= 10 and "Champion" not in stats.get("achievements", []):
+        stats.setdefault("achievements", []).append("Champion")
+        save_stats()
         print(Fore.YELLOW + "\n👑 Achievement Unlocked: Champion!")
 
-    if stats["best_streak"] >= 5 and "Hot Streak" not in stats["achievements"]:
-        stats["achievements"].append("Hot Streak")
-        save_stats
+    if stats["best_streak"] >= 5 and "Hot Streak" not in stats.get("achievements", []):
+        stats.setdefault("achievements", []).append("Hot Streak")
+        save_stats()
         print(Fore.MAGENTA + "\n🔥 Achievement Unlocked: Hot Streak!")
 
 def view_achievements():
