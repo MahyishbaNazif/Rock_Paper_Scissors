@@ -1,91 +1,125 @@
-# 🎮 Rock Paper Scissors 
+# 🎮 Rock Paper Scissors
 
-An advanced terminal-based **Rock Paper Scissors** game built with **Python**. This project goes beyond the classic version by introducing multiple game modes, persistent player statistics, achievements, difficulty levels, and a colorful command-line interface.
-
----
-
-## 📌 Overview
-
-Rock Paper Scissors v2.0 is designed to demonstrate Python programming concepts such as:
-
-- Object-oriented thinking through modular functions
-- JSON file handling
-- Persistent data storage
-- Menu-driven applications
-- User interaction
-- Conditional logic
-- Clean project organization
+A feature-rich terminal-based Rock Paper Scissors game built with Python. Challenge the computer, unlock achievements, track your statistics, and enjoy multiple game modes.
 
 ---
 
 ## ✨ Features
 
-- 🎮 Interactive Main Menu
-- 👤 Player Profile
-- 💾 Persistent Statistics (JSON)
-- 🏆 Achievement System
-- 🔥 Win Streak Tracking
-- 🤖 Multiple AI Difficulty Levels
+- 🎯 Three Difficulty Levels
   - Easy
   - Medium
   - Hard
-- 🎯 Multiple Game Modes
+
+- 🎮 Multiple Game Modes
   - Best of 3
   - Best of 5
   - Endless Mode
-- 📊 Match Summary
-- 📈 Overall Win Rate
-- 🎨 Colorful Terminal Interface
-- 📖 Rules Menu
-- 🔄 Reset Statistics
+
+- 📊 Player Statistics
+  - Games Played
+  - Wins
+  - Losses
+  - Draws
+  - Win Rate
+  - Best Win Streak
+
+- 🏆 Achievement System
+  - 🏅 First Victory
+  - 👑 Champion
+  - 🔥 Hot Streak
+
+- 💾 Automatic Save System (JSON)
+- 🎨 Colored Terminal Interface
+- 🤖 Computer AI
+- 📖 Built-in Rules Menu
 
 ---
 
 ## 📂 Project Structure
 
-```
+```text
 Rock_Paper_Scissors/
 │
 ├── data/
 │   └── stats.json
 │
+├── screenshots/
+│   ├── main_menu.png
+│   ├── gameplay.png
+│   ├── statistics.png
+│   ├── achievements.png
+│   ├── rules.png
+│   └── exit.png
+│
 ├── rock_paper_scissors.py
 ├── requirements.txt
-├── .gitignore
-└── README.md
+├── README.md
+├── LICENSE
+└── .gitignore
 ```
 
 ---
 
-## 🛠 Technologies Used
+## 📸 Screenshots
 
-- Python 3
-- JSON
-- Colorama
+### 🏠 Main Menu
+
+![Main Menu](screenshots/main_menu.png)
 
 ---
 
-## 📦 Installation
+### 🎮 Gameplay
 
-Clone the repository
+![Gameplay](screenshots/gameplay.png)
+
+---
+
+### 📊 Statistics
+
+![Statistics](screenshots/statistics.png)
+
+---
+
+### 🏆 Achievements
+
+![Achievements](screenshots/achievements.png)
+
+---
+
+### 📖 Rules
+
+![Rules](screenshots/rules.png)
+
+---
+
+### 👋 Exit Screen
+
+![Exit](screenshots/exit.png)
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/MahyishbaNazif/Rock_Paper_Scissors.git
 ```
 
-Go to the project folder
+Go into the project:
 
 ```bash
 cd Rock_Paper_Scissors
 ```
 
-Install dependencies
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the game
+Run the game:
 
 ```bash
 python rock_paper_scissors.py
@@ -93,54 +127,13 @@ python rock_paper_scissors.py
 
 ---
 
-## 🎮 Gameplay
+## 🛠️ Technologies Used
 
-Choose your preferred mode.
-
-- Best of 3
-- Best of 5
-- Endless Mode
-
-Play against the computer, unlock achievements, build your winning streak, and improve your statistics.
-
----
-
-## 📸 Screenshots
-
-### Main Menu
-
-![Main Menu](srceenshots/main_menu.png)
-
-### Gameplay
-
-![Gameplay](screenshots/gameplay.png)
-
-### Statistics
-
-![Statistics](screenshots/statistics.png)
-
-### Achievements
-
-![Achievements](screenshots/achievements.png)
-
-### Rules
-
-![Rules](screenshots/rules.png)
-
-### Exit
-
-![Exit](screenshots/exit.png)
-
----
-
-## 🚀 Future Improvements
-
-- Multiplayer Mode
-- Online Leaderboard
-- Sound Effects
-- Custom Themes
-- Smarter AI
-- Graphical User Interface (Tkinter / CustomTkinter)
+- Python 3
+- Colorama
+- JSON
+- Git
+- GitHub
 
 ---
 
@@ -148,22 +141,11 @@ Play against the computer, unlock achievements, build your winning streak, and i
 
 **Mahyishba Nazif**
 
-GitHub:
-https://github.com/MahyishbaNazif
-
-LinkedIn:
-www.linkedin.com/in/mahyishba-nazif-703831370
+- GitHub: https://github.com/MahyishbaNazif
+- LinkedIn: https://www.linkedin.com/in/mahyishba-nazif-703831370/
 
 ---
 
 ## ⭐ Support
 
-If you enjoyed this project, consider giving it a ⭐ on GitHub.
-
-Feedback and suggestions are always welcome.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
+If you like this project, consider giving it a ⭐ on GitHub.
