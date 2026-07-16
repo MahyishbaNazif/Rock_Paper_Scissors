@@ -109,27 +109,28 @@ Play against the computer, unlock achievements, build your winning streak, and i
 
 ### Main Menu
 
-![Main Menu] (sreenshots/main_menu.png)
+![Main Menu](srceenshots/main_menu.png)
 
 ### Gameplay
 
-![Gameplay] (sreenshots/gameplay.png)
+![Gameplay](screenshots/gameplay.png)
 
 ### Statistics
 
-![Statistics] (sreenshots/statistics.png)
+![Statistics](screenshots/statistics.png)
 
 ### Achievements
 
-![Achievements] (sreenshots/achievements.png)
+![Achievements](screenshots/achievements.png)
 
 ### Rules
 
-![Rules] (sreenshots/rules.png)
+![Rules](screenshots/rules.png)
 
 ### Exit
 
-![Exit] (sreenshots/exit.png)
+![Exit](screenshots/exit.png)
+
 ---
 
 ## 🚀 Future Improvements
@@ -151,7 +152,7 @@ GitHub:
 https://github.com/MahyishbaNazif
 
 LinkedIn:
-(Add your LinkedIn profile link)
+www.linkedin.com/in/mahyishba-nazif-703831370
 
 ---
 
